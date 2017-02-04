@@ -1,0 +1,161 @@
+% LaTeX source file of my resume (in German).
+% Copyright 2016-2017 Thomas Heller
+% 
+% Based on a ModernCV template:
+% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com)
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+% 10pt/11pt/12pt, a4paper/letterpaper, sans/roman
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% classic/banking/oldstyle/fancy
+\moderncvstyle{classic}
+
+% black/blue/burgundy/green/grey/orange/purple/red
+\moderncvcolor{blue}
+
+% `\sfdefault' for the default sans serif font/`\rmdefault' for the
+% default roman font/any other TeX font name
+% \renewcommand{\familydefault}{\sfdefault}
+
+\nopagenumbers{}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[scale=0.79]{geometry}
+
+% width of the date column:
+\setlength{\hintscolumnwidth}{2.1cm}
+
+% force width of allocated to the name/heading
+% \setlength{\makecvtitlenamewidth}{20cm}
+
+\name{Thomas}{Heller}
+\title{Software-Entwickler}
+\address{Wiesenweg 4}{D-56070 Koblenz}%{Deutschland}
+\phone[mobile]{+49~176~78999147}
+% \phone[fixed]{}
+% \phone[fax]{}
+\email{thomas.m.heller@gmail.com}
+\homepage{http://thomasheller.me}
+% \social[linkedin]{thomas-heller-962305131}
+% \social[twitter]{hellerthomas}
+\social[github]{thomasheller}
+% \extrainfo{}
+
+% picture height, border thickness (can be 0pt)
+\photo[64pt][0.4pt]{avatar_160px}
+
+% \quote{}
+
+% bibliography settings:
+
+% numerical labels
+% \makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+
+% heading
+% \renewcommand{\refname}{Veröffentlichungen}
+
+% multiple bibliographies in one document
+% \usepackage{multibib}
+% \newcites{book,misc}{{Bücher},{Sonstige}}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Persönliche Daten}
+\cvitem{Geburtstag}{26.02.1987 in Freiburg im Breisgau}
+\cvitem{Familienstand}{ledig, 1 Kind}
+
+\section{Berufliche Erfahrung \& Ausbildung}
+
+\subsection{Berufserfahrung}
+
+\cventry{09/2016--heute}{Software-Entwickler}{Medvigo UG}{Koblenz}{}{\begin{itemize}
+\item Entwicklung webbasierter e-Health-Lösungen in PHP/Laravel und Go
+\item DevOps-Aufgaben einschließlich der Verwaltung von AWS-Cloud-Resourcen
+\item Erfahrung mit WebRTC-Frameworks
+\end{itemize}}
+
+\cventry{06/2015--06/2016}{Fachinformatiker und Yoga-Lehrer}{Yoga Vidya e.V.}{Horn-Bad Meinberg}{}{\begin{itemize}
+\item IT-Teamleiter (seit Februar 2016)
+\item Administration der Windows-Server-/Active-Directory-/Exchange-Infrastruktur
+\item Administration des Aastra-Telekommunikationsservers und der VoIP-Telefone
+\item Diagnose und Behebung von Hardware-, Software- und Endanwender-Problemen
+\item Entwicklung von Tools zu Parsing/Generierung von Texten und MediaWiki-Schnittstellen in Java
+\item Anleiten von Meditationen
+\item Assistenz in Yogastunden und Yogalehrerausbildungen
+\end{itemize}}
+
+\cventry{03/2015--04/2015}{Fachinformatiker}{Support-IT GbR}{Freiburg im Breisgau}{}{\begin{itemize}
+\item IT-Support vor Ort für englisch- und deutschsprachige Kunden im Raum Freiburg
+\item Administration im Windows-Server-/Active-Directory-/Exchange-Umfeld
+\item Webentwicklung von Lösungen zur Zeiterfassung und Warenwirtschaft in PHP/MySQL
+\end{itemize}}
+
+\cventry{08/2013--09/2014}{Software-Entwickler (Java/Android, C\texttt{\#})}{SWING GmbH}{Freiburg im Breisgau}{}{\begin{itemize}
+\item Entwicklung von SWING2Go in Java (Android-basierte Tabletlösung in der Pflegeinformatik)
+\item Entwicklung von Webschnittstellen und Lösungen zur Datenbank-Synchronisation in Java, C\texttt{\#}, Google Protocol Buffers und JSON
+\item Entwicklung von SWING Controlling (Software zum Finanzcontrolling für Ambulante Pflegedienste) in C\texttt{\#} (ASP.NET und PC)
+\item 3rd-Level-Support für Endanwender und IT-Administratoren in Deutschland und Schweiz
+\item Durchführung interner Schulungen für das Supportpersonal (1st und 2nd Level)
+\end{itemize}}
+
+\subsection{Duale Ausbildung}
+
+\cventry{09/2010--07/2013}{IT-System-Kaufmann}{SWING GmbH / Max-Weber-Schule}{Freiburg im  Breisgau}{Abschluss: IHK IT-System-Kaufmann \emph{(Abschlussnote: gut)}}{\begin{itemize}
+\item Prototyping von SWING2Go mit PHP, MySQL, jQuery Mobile
+\item Webentwicklung von SWING2Go (Software zur mobilen Datenerfassung auf iPad) in C\texttt{\#} (ASP.NET)
+\item Entwicklung interner Analysetools zum Finanzcontrolling in C\texttt{\#} (PC)
+\item Redesign der Unternehmenswebsite (Implementierung in HTML, CSS, JavaScript, VTL)
+\item Entwicklung des Online-Kundenportals mit Intrexx
+\end{itemize}}
+
+\subsection{Praktikum}
+
+\cventry{05/2010--08/2010}{IT-Consultant}{SWING GmbH}{Freiburg im  Breisgau}{}{\begin{itemize}
+\item Telefonische Anwenderberatung für Endkunden in Sozialen Einrichtungen in Deutschland
+\item Kundenspezifische Anpassungen von Branchenlösungen der Pflegeinformatik
+\item Report-Design mit Combit List \& Label
+\end{itemize}}
+
+\section{Studium und schulische Bildung}
+
+\cventry{04/2008--04/2010}{Studium Religionswissenschaft und Evangelische Theologie}{Ruprecht-Karls-Universität}{Heidelberg}{}{\begin{itemize}
+\item Einführung in die Religionswissenschaft, ihre Methodik und Geschichte
+\item Einführung in die Evangelische Theologie
+\item Geschichte des Urchristentums, Moraltheologie und Christliche Ethik
+\item Kurse über zeitgenössische religiöse Entwicklungen (wie Patchwork-Religion)
+\item Kurse über Cross-Cultural-Studies in Bezug auf die gegenseitigen Einflüsse westlicher und östlicher (speziell indischer) Religion sowie neue religiöse Bewegungen in Japan
+\item Kurse über Religionspsychologie
+\end{itemize}}
+
+\cventry{09/2007--03/2008}{Studium Verfahrenstechnik}{Karlsruher Institut für Technologie}{Karlsruhe}{}{\begin{itemize}
+\item Grundlagen Höhere Mathematik, Elektrotechnik, Technische Mechanik, Chemie und Werkstoffkunde
+\end{itemize}}
+
+\cventry{09/2003--07/2007}{Informationstechnisches Gymnasium}{Richard-Fehrenbach-Gewerbeschule}{Freiburg im  Breisgau}{\emph{(Abschluss: Abitur Ø 2,1)}}{\begin{itemize}
+\item Objektorientierte Analyse, Design und Programmierung mit UML und Java
+\item Datenbankdesign und -normalisierung, ER-Modelling, SQL
+\item Mikrocontroller-Programmierung in C und ASM
+\item Linux-Scripting (bash und zsh)
+\item Grundlagenwissen Betriebssystemdesign und Netzwerktechnik
+\end{itemize}
+Allgemeinbildung in Mathematik, Physik, Chemie, Englisch, Deutsch, Französisch, Geschichte, Religion und Musik}
+
+\section{Sprachen}
+\cvitem{Deutsch}{Muttersprache}
+\cvitem{Englisch}{fließend}
+\cvitem{Französisch}{Grundkenntnisse}
+
+\section{Weiteres}
+\cvitem{Führerschein}{Klasse B}
+
+\cventry{01/2015--02/2015}{Yogalehrerausbildung}{Yoga Vidya e.V.}{Horn-Bad Meinberg}{}{400 UE Intensivausbildung, Abschluss: Yogalehrer (BYV)}
+
+\end{document}
+

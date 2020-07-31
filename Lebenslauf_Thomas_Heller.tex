@@ -24,8 +24,10 @@
 \nopagenumbers{}
 
 \usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
 
-\usepackage[scale=0.84]{geometry}
+% \usepackage[scale=.79]{geometry}
+\usepackage[scale=.84]{geometry}
 
 % width of the date column:
 \setlength{\hintscolumnwidth}{2.1cm}
@@ -35,7 +37,7 @@
 
 \name{Thomas}{Heller}
 \title{Software-Entwickler}
-\address{Gärtnerweg 11}{D-79189 Bad Krozingen}%{Deutschland}
+\address{Hagenbacher Str. 6}{D-76187 Karlsruhe}%{Deutschland}
 \phone[mobile]{+49~176~78999147}
 % \phone[fixed]{}
 % \phone[fax]{}
@@ -73,108 +75,130 @@
 \cvitem{Geburtstag}{26.02.1987 in Freiburg im Breisgau}
 \cvitem{Familienstand}{ledig, 1 Kind}
 
-\section{Berufliche Erfahrung \& Ausbildung}
+\section{Berufliche Erfahrung}
 
-\subsection{Berufserfahrung}
-
-\cventry{11/2019--heute}{Senior Web Developer}{Flagbit GmbH \& Co. KG}{Karlsruhe}{}{\begin{itemize}
-  \item E-Commerce-Backend-Entwicklung mit Serverless Functions (Go/TypeScript)
-  \item Magento-Backend-Entwicklung (PHP)
+\cventry{11/2019--heute}{Senior Web Developer}{Flagbit GmbH \& Co. KG}{Karlsruhe/HomeOffice}{}{\begin{itemize}
+	\item Magento-Backend-Entwicklung (\textbf{PHP})
+	\item Entwicklung von Serverless Functions für E-Commerce-Anwendungen (\textbf{Go}, \textbf{TypeScript})
 \end{itemize}}
 
 \cventry{08/2018--10/2019}{Software-Entwickler}{Timme Hosting GmbH \& Co. KG}{Lüneburg}{}{\begin{itemize}
-  \item Weiterentwicklung von ISPConfig3 (PHP, MariaDB, JavaScript)
-  \item Weiterentwicklung von HESK und Mods for HESK (PHP, MariaDB, JavaScript)
-  \item Entwicklung von Icinga2-/Nagios-Checks
-  \item Entwicklung skalierbarer Cloud-Lösungen auf UpCloud (Go)
+	\item Weiterentwicklung von ISPConfig3 und HESK (\textbf{PHP}, MariaDB, JavaScript)
+	\item Entwicklung von Verwaltungssoftware für skalierbare Cloud-Lösungen (\textbf{Go}, UpCloud)
+	\item Entwicklung von Icinga2-/Nagios-Checks
 \end{itemize}}
 
-\cventry{06/2017--07/2018}{Software-Entwickler}{PTC Telematik GmbH}{Koblenz/Remote}{}{\begin{itemize}
-\item Redesign der Unternehmenswebsite mit WordPress, PHP, CSS, JavaScript
-\item Linux-Server-Administration (Ubuntu/Debian, Proxmox/Bare-Metal)
-\item Wartung/Deployment der Ruby-/PostgreSQL-basierten Webanwendung
-\item Wartung/Deployment des GPS-Protokoll-Parsing-Servers (Java)
-\item Entwicklung von Icinga2-/Nagios-Checks (Bash, Perl, Go)
-\item Dokumentation der IT-Infrastruktur (Netzwerk, Dienste, Zugänge)
+\cventry{06/2017--07/2018}{Software-Entwickler}{PTC Telematik GmbH}{Koblenz/HomeOffice}{}{\begin{itemize}
+	\item Server-Administration (\textbf{Ubuntu/Debian}, Proxmox/Bare-Metal)
+	\item Betrieb einer Webanwendung zur Fahrzeugortung (Ruby, PostgreSQL)
+	\item Betrieb des GPS-Protokoll-Parsing-Servers (Java)
+	\item Entwicklung von Icinga2-/Nagios-Checks (Bash, Perl, Go)
+	% \item IT-Dokumentation (Netzwerk, Dienste, Zugänge)
+	\item Redesign einer Unternehmenswebsite (HTML, CSS, JavaScript, WordPress/PHP)
 \end{itemize}}
 
 \cventry{09/2016--05/2017}{Software-Entwickler}{Medvigo UG}{Koblenz}{}{\begin{itemize}
-\item Entwicklung webbasierter e-Health-Lösungen in PHP/Laravel und Go
-\item DevOps-Aufgaben einschließlich der Verwaltung von AWS-Cloud-Resourcen
-\item Erfahrung mit WebRTC-Frameworks
+	\item Entwicklung webbasierter e-Health-Lösungen (\textbf{PHP}/Laravel, \textbf{Go}, WebRTC)
+	\item Server-Administration (AWS/Debian, ESXi/Windows)
 \end{itemize}}
 
-\cventry{06/2015--06/2016}{Fachinformatiker und Yoga-Lehrer}{Yoga Vidya e.V.}{Horn-Bad Meinberg}{}{\begin{itemize}
-\item IT-Teamleiter (seit Februar 2016)
-\item Administration der Windows-Server-/Active-Directory-/Exchange-Infrastruktur
-\item Administration des Aastra-Telekommunikationsservers und der VoIP-Telefone
-\item Diagnose und Behebung von Hardware-, Software- und Endanwender-Problemen
-\item Entwicklung von Tools zu Parsing/Generierung von Texten und MediaWiki-Schnittstellen in Java
+\cventry{06/2015--06/2016}{Fachinformatiker}{Yoga Vidya e.V.}{Horn-Bad Meinberg}{}{\begin{itemize}
+	\item Server-Administration (\textbf{Windows Server}, Active Directory, Exchange)
+	\item Betrieb einer Aastra-Telefonanlage, VoIP-Telefone, Analogleitungen
+	\item Diagnose und Behebung von Hardware-, Software- und Endanwender-Problemen
+	\item Entwicklung von Tools zu Parsing/Generierung von Texten und MediaWiki-Schnittstellen (\textbf{Java})
+	\item Interrims-IT-Leiter ab 02/2016
 \end{itemize}}
+
+% \cventry{05/2015}{Praktikum}{Yoga Vidya e.V.}{Horn-Bad Meinberg}{}{}
 
 \cventry{03/2015--04/2015}{Fachinformatiker}{Support-IT GbR}{Freiburg im Breisgau}{}{\begin{itemize}
-\item IT-Support vor Ort für englisch- und deutschsprachige Kunden im Raum Freiburg
-\item Administration im Windows-Server-/Active-Directory-/Exchange-Umfeld
-\item Webentwicklung von Lösungen zur Zeiterfassung und Warenwirtschaft in PHP/MySQL
+	\item Server-Administration (\textbf{Windows Server}, Active Directory, Exchange)
+	\item IT-Support für englisch- und deutschsprachige Kunden im Raum Freiburg (Außendienst)
+	\item Entwicklung von Lösungen zur Zeiterfassung und Warenwirtschaft (\textbf{PHP}, MySQL, JavaScript)
 \end{itemize}}
 
-\cventry{08/2013--09/2014}{Software-Entwickler (Java/Android, \CSharp{})}{SWING GmbH}{Freiburg im Breisgau}{}{\begin{itemize}
-\item Entwicklung von SWING2Go in Java (Android-basierte Tabletlösung in der Pflegeinformatik)
-\item Entwicklung von Webschnittstellen und Lösungen zur Datenbank-Synchronisation in Java, \CSharp{}, Google Protocol Buffers und JSON
-\item Entwicklung von SWING Controlling (Software zum Finanzcontrolling für Ambulante Pflegedienste) in \CSharp{} (ASP.NET und PC)
-\item 3rd-Level-Support für Endanwender und IT-Administratoren in Deutschland und Schweiz
-\item Durchführung interner Schulungen für das Supportpersonal (1st und 2nd Level)
+\cventry{08/2013--09/2014}{Software-Entwickler}{SWING GmbH}{Freiburg im Breisgau}{}{\begin{itemize}
+	\item Entwicklung von Tablet-Lösungen im Bereich der Altenpflege (\textbf{Java/Android})
+	\item Entwicklung von Synchronisationssoftware PC $\Leftrightarrow$ Tablet (Java, \CSharp{}, Google protobuf, JSON)
+	\item Entwicklung von Software zum Finanzcontrolling für Ambulante Pflegedienste (\textbf{\CSharp{}}/ASP.NET)
+	\item 3rd-Level-Support für Endanwender und IT-Administratoren (Deutschland, Schweiz)
+	\item Schulung des Supportpersonals (1st und 2nd Level)
 \end{itemize}}
 
-\subsection{Duale Ausbildung}
+\newpage
+
+\section{Berufliche Ausbildung}
 
 \cventry{09/2010--07/2013}{IT-System-Kaufmann}{SWING GmbH / Max-Weber-Schule}{Freiburg im  Breisgau}{Abschluss: IHK IT-System-Kaufmann \emph{(Abschlussnote: gut)}}{\begin{itemize}
-\item Prototyping von SWING2Go mit PHP, MySQL, jQuery Mobile
-\item Webentwicklung von SWING2Go (Software zur mobilen Datenerfassung auf iPad) in \CSharp{} (ASP.NET)
-\item Entwicklung interner Analysetools zum Finanzcontrolling in \CSharp{} (PC)
-\item Redesign der Unternehmenswebsite (Implementierung in HTML, CSS, JavaScript, VTL)
-\item Entwicklung des Online-Kundenportals mit Intrexx
+	\item Prototyping von Tablet-Lösungen im Bereich der Altenpflege (\textbf{PHP}, MySQL, jQuery Mobile)
+	\item Entwicklung von Software zur mobilen Datenerfassung per iPad (\textbf{\CSharp}{}/ASP.NET)
+	\item Entwicklung von Analysetools zum Finanzcontrolling (\textbf{\CSharp{}}, MSSQL)
+	\item Entwicklung einer neuen Unternehmenswebsite mit Online-Kundenportal (JavaScript, Intrexx/VTL)
 \end{itemize}}
 
-\subsection{Praktikum}
-
-\cventry{05/2010--08/2010}{IT-Consultant}{SWING GmbH}{Freiburg im  Breisgau}{}{\begin{itemize}
-\item Telefonische Anwenderberatung für Endkunden in Sozialen Einrichtungen in Deutschland
-\item Kundenspezifische Anpassungen von Branchenlösungen der Pflegeinformatik
-\item Report-Design mit Combit List \& Label
+\cventry{05/2010--08/2010}{Praktikum IT-Consultant}{SWING GmbH}{Freiburg im  Breisgau}{}{\begin{itemize}
+	\item Telefonische Anwenderberatung für Endkunden in Sozialen Einrichtungen in Deutschland
+	\item Kundenspezifische Anpassungen von Branchenlösungen der Pflegeinformatik
+	\item Report-Design (Combit List \& Label)
 \end{itemize}}
 
-\section{Studium und schulische Bildung}
+\section{Studium und Schulbildung}
 
-\cventry{04/2008--04/2010}{Studium Religionswissenschaft und Evangelische Theologie}{Ruprecht-Karls-Universität}{Heidelberg}{}{\begin{itemize}
-\item Einführung in die Religionswissenschaft, ihre Methodik und Geschichte
-\item Einführung in die Evangelische Theologie
-\item Geschichte des Urchristentums, Moraltheologie und Christliche Ethik
-\item Kurse über zeitgenössische religiöse Entwicklungen (wie Patchwork-Religion)
-\item Kurse über Cross-Cultural-Studies in Bezug auf die gegenseitigen Einflüsse westlicher und östlicher (speziell indischer) Religion sowie neue religiöse Bewegungen in Japan
-\item Kurse über Religionspsychologie
+\cventry{04/2008--04/2010}{Studium Religionswissenschaft, Evangelische Theologie}{Ruprecht-Karls-Universität}{Heidelberg}{}{\begin{itemize}
+	\item Einführung in Religionswissenschaft (soziologische Methodik/Fachgeschichte)
+	\item Einführung in Evangelische Theologie; Urchristentum, Moraltheologie, Christliche Ethik
+	\item Patchwork-Religion, Cross-Cultural-Studies, Neue religiöse Bewegungen
+	\item Religionspsychologie
 \end{itemize}}
 
 \cventry{09/2007--03/2008}{Studium Verfahrenstechnik}{Karlsruher Institut für Technologie}{Karlsruhe}{}{\begin{itemize}
-\item Grundlagen Höhere Mathematik, Elektrotechnik, Technische Mechanik, Chemie und Werkstoffkunde
+	\item Höhere Mathematik, Elektrotechnik, Technische Mechanik, Chemie, Werkstoffkunde
 \end{itemize}}
 
-\cventry{09/2003--07/2007}{Informationstechnisches Gymnasium}{Richard-Fehrenbach-Gewerbeschule}{Freiburg im  Breisgau}{\emph{(Abschluss: Abitur Ø 2,1)}}{\begin{itemize}
-\item Objektorientierte Analyse, Design und Programmierung mit UML und Java
-\item Datenbankdesign und -normalisierung, ER-Modelling, SQL
-\item Mikrocontroller-Programmierung in C und ASM
-\item Linux-Scripting (bash und zsh)
-\item Grundlagenwissen Betriebssystemdesign und Netzwerktechnik
+\cventry{09/2003--07/2007}{Informationstechnisches Gymnasium}{Richard-Fehrenbach-Gewerbeschule}{Freiburg im  Breisgau}{\emph{(Abschluss: Allgemeine Hochschulreife, Note: 2,1)}}{\begin{itemize}
+	\item Objektorientierte Analyse, Design und Programmierung (UML, Java)
+	\item Datenbankdesign und -normalisierung (ERM, SQL)
+	\item Mikrocontroller-Programmierung (C, Assembler)
+	\item Linux-Scripting (bash und zsh)
+	\item Betriebssystemdesign und Netzwerktechnik
+\end{itemize}}
+
+\section{Außerberufliches Engagement}
+
+\cventry{10/2019--heute}{Entwicklung privater Telegram-Bots}{}{}{}{\begin{itemize}
+	\item z.B. Uptime-Monitoring, geobasierte Erinnerungen, Wetterabfragen (Python, Go)
+\end{itemize}}
+\cventry{05/2014--06/2018}{Gründung/Administration}{Online-Community minimalisten.org}{}{}{\begin{itemize}
+	\item Customizing von Oxwall (PHP)
+\end{itemize}}
+% \cventry{2010--2012}{Studentengottesdienste, techn. Betreuung}{Campus für Christus}{Freiburg im Breisgau}{}{\begin{itemize}
+	% \item Tontechnik, Videopräsentationen, Website-Administration
+% \end{itemize}}
+
+\section{Weitere IT-Kenntnisse}
+\begin{itemize}
+	\setlength{\itemindent}{6.35em}
+	\item Containerisierung: Docker, Kubernetes
+	\item Versionierung: Git, SVN
+	\item Dokumentation: LaTeX, Markdown, AsciiDoc; Confluence/Jira, DokuWiki
+	\item IDEs: Vim, PhpStorm/DataGrip, MS Visual Studio, Eclipse
 \end{itemize}
-Allgemeinbildung in Mathematik, Physik, Chemie, Englisch, Deutsch, Französisch, Geschichte, Religion und Musik}
 
-\section{Sprachen}
-\cvitem{Deutsch}{Muttersprache}
-\cvitem{Englisch}{fließend}
-\cvitem{Französisch}{Grundkenntnisse}
+\section{Sprachkenntnisse}
+\begin{itemize}
+	\setlength{\itemindent}{6.35em}
+	\item Deutsch (Muttersprache)
+	\item Englisch (fließend)
+	\item Französisch (Grundkenntnisse)
+\end{itemize}
 
-\section{Weiteres}
-\cvitem{Führerschein}{Klasse B}
+\section{Sonstige Kenntnisse und Interessen}
+\begin{itemize}
+	\setlength{\itemindent}{6.35em}
+	\item Führerschein Klasse B
+	\item Yogalehrer (BYV, 400 UE, 2015)
+	\item Klavier, Radfahren
+\end{itemize}
 
 \end{document}
-
